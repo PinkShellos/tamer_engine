@@ -1,5 +1,5 @@
--- These are example strings.
-"menuResumeGame" =		"サイカイ "
-"menuNewGame" =			"アタラシイゲーム"
-"menuOptions" =			"セッテイ"
-"menuCredits" =			"クレジット"
+-- main battle menu
+"battleMenuFight" = "アタック"
+"battleMenuItems" = "バッグ"
+"battleMenuTeam"  = "使い魔"
+"battleMenuFlee"  = "エスケープ"

@@ -1,5 +1,5 @@
--- These are example strings.
-"menuResumeGame" =		"Resume"
-"menuNewGame" =			"New Game"
-"menuOptions" =			"Options"
-"menuCredits" =			"Credits"
+-- main battle menu
+"battleMenuFight" = "Fight"
+"battleMenuItems" = "Pack"
+"battleMenuTeam"  = "Monsters"
+"battleMenuFlee"  = "Flee"
