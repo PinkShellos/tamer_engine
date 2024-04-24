@@ -26,6 +26,7 @@ luac.out
 *.exp
 
 # Shared objects (inc. Windows DLLs)
+.DS_Store
 *.dll
 *.so
 *.so.*
@@ -40,6 +41,8 @@ luac.out
 *.hex
 
 .vscode
+.nova
+*.zip
 
 builds/
 
