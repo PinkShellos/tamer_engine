@@ -1,5 +1,7 @@
+-- Press A to Start
+"pressA" = "Press A to Start"
 -- main battle menu
 "battleMenuFight" = "Fight"
-"battleMenuItems" = "Pack"
-"battleMenuTeam"  = "Monsters"
+"battleMenuItems" = "Bag"
+"battleMenuTeam"  = "Mons"
 "battleMenuFlee"  = "Flee"

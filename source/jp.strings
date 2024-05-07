@@ -1,3 +1,5 @@
+-- Press A to Start
+"pressA" = "Press A to Start"
 -- main battle menu
 "battleMenuFight" = "アタック"
 "battleMenuItems" = "バッグ"

@@ -2,17 +2,15 @@ import 'libraries/noble/Noble'
 
 import 'utilities/Utilities'
 
-import 'scenes/ExampleScene'
-import 'scenes/ExampleScene2'
+import 'scenes/_TitleScene'
 
-Noble.Settings.setup({
-	Difficulty = "Medium"
-})
+-- fonts
+Noble.Text.FONT_SMALL = Graphics.font.new("assets/fonts/Pixel-Digivolve-10")
+Noble.Text.setFont(Noble.Text.FONT_SMALL)
 
 Noble.GameData.setup({
-	Score = 0
 })
 
 Noble.showFPS = true
 
-Noble.new(ExampleScene)
+Noble.new(_TitleScene)

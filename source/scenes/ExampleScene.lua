@@ -14,8 +14,8 @@ function scene:setValues()
 	self.menuX = 15
 
 	self.menuYFrom = -50
-	self.menuY = 15
-	self.menuYTo = 240
+	self.menuY = 160
+	self.menuYTo = 50
 end
 
 function scene:init()
@@ -77,7 +77,7 @@ function scene:update()
 
 	Graphics.setColor(self.color1)
 	Graphics.setDitherPattern(0.2, Graphics.image.kDitherTypeScreen)
-	Graphics.fillRoundRect(self.menuX, self.sequence:get() or self.menuY, 185, 200, 15)
+	Graphics.fillRoundRect(self.menuX, self.sequence:get() or self.menuY, 370, 65, 15)
 	self.menu:draw(self.menuX+15, self.sequence:get() + 8 or self.menuY+8)
 
 	self:drawLogo()

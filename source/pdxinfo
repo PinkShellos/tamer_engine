@@ -1,7 +1,7 @@
-name=A Noble Engine Game
-author=A Lovely Developer
-description=This is a Noble Engine game.
-bundleID=com.yourdomain.GameName
+name=Tamer Engine
+author=PinkShellos
+description=A Monster Tamer battle engine for the Playdate built on Noble Engine
+bundleID=com.pinkshellos.tamerengine
 version=0.0.1
 buildNumber=1
 imagePath=assets/launcher/

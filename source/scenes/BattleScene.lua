@@ -15,7 +15,7 @@ local scene = BattleScene
 --
 
 -- This is the background color of this scene.
-scene.backgroundColor = Graphics.kColorWhite
+scene.backgroundColor = Graphics.kColorBlack
 
 -- This runs when your scene's object is created, which is the
 -- first thing that happens when transitioning away from another scene.
